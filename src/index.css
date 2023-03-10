@@ -15,7 +15,7 @@ body {
     serif;
   color: #c01d1d;
   background: rgb(6, 172, 172);
-  overflow: hidden;
+  /* overflow: hidden; */
   display: block;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
