@@ -51,7 +51,7 @@ const Home = () => {
               idx={22}
             />
           </h1>
-          <h2>Fullstack developer / Javascript Expert</h2>
+          <h2>Fullstack Webentwickler / React Entwickler</h2>
           <Link to="/contact" className="flat-button">
             KONTAKT
           </Link>
