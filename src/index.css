@@ -1,0 +1,22 @@
+:root {
+  --first-color: #a530c2;
+  --text-color: #024968;
+  --header-2-color: rgb(47, 9, 128);
+  --hover-color: rgb(209, 165, 191);
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  font: 300 11px/1.4rem "Helvetica Neue", Georgia, "Times New Roman", Times,
+    serif;
+  color: #c01d1d;
+  background: rgb(6, 172, 172);
+  overflow: hidden;
+  display: block;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
