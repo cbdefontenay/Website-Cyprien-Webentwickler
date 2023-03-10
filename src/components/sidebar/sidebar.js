@@ -13,7 +13,6 @@ import {
   faUser,
 } from "@fortawesome/free-solid-svg-icons";
 import { Link, NavLink } from "react-router-dom";
-import LogoS from "../../assets/images/logo-c.png";
 import "./sidebar.scss";
 import { useState } from "react";
 

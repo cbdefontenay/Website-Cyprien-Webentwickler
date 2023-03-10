@@ -54,7 +54,11 @@ const Contact = () => {
             Meine Kontaktdaten finden Sie auf dem schwarzen Box über die karte.
           </p>
           <p>
-            <i>(Die Karte ist leider nicht für Handys verfügbar.)</i>
+            <i>
+              (Für Handys sind die Kontaktdaten leider nicht verfügbar,
+              allerdings wenn Sie auf dem "+" Symbol von der Karte drücken,
+              können Sie meinen WohnOrt sehen.)
+            </i>
           </p>
           <div className="contact-form">
             <form ref={form} onSubmit={sendEmail}>
