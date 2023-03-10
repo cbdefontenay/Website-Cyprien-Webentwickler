@@ -41,8 +41,8 @@ const About = () => {
             mein Wunsch auch beruflich in dieses spannende Feld einzusteigen.
           </p>
           <p>
-            Im Jahr 2022 habe ich dann ein Bootcamp bei der{" "}
-            <span>Zero to Mastery Academy</span>. Ich habe HTML, CSS,
+            Im Jahr 2022 habe ich dann ein Bootcamp bei der
+            <span>Zero to Mastery Academy</span> erfühlt. Ich habe HTML, CSS,
             JavaScript, und React.js (Redux/Redux toolkit) erlernt, und Node.js
             (zusammen mit Express) als Backend tools benutz.
           </p>

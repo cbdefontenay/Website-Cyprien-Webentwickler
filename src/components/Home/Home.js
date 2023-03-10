@@ -53,7 +53,7 @@ const Home = () => {
           </h1>
           <h2>Fullstack developer / Javascript Expert</h2>
           <Link to="/contact" className="flat-button">
-            MICH KONTAKTIEREN
+            KONTAKT
           </Link>
         </div>
         <Logo />

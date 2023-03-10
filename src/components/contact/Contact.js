@@ -27,7 +27,7 @@ const Contact = () => {
       )
       .then(
         () => {
-          alert("Nachricht wurde geschickt! Vielen Dank");
+          alert("Nachricht wurde verschickt! Vielen Dank");
           window.location.reload(false);
         },
         () => {
@@ -45,34 +45,16 @@ const Contact = () => {
           <h1>
             <AnimatedLetters
               letterClass={letterClass}
-              strArray={[
-                "M",
-                "i",
-                "c",
-                "h",
-                "",
-                "k",
-                "o",
-                "n",
-                "t",
-                "a",
-                "k",
-                "t",
-                "i",
-                "e",
-                "r",
-                "e",
-                "n",
-              ]}
+              strArray={["k", "o", "n", "t", "a", "k", "t"]}
               idx={15}
             />
           </h1>
           <p>
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-            erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
-            et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
-            Lorem ipsum dolor sit amet.
+            Sie können sehr gerne mich eine Nachricht schicken, oder ein Email.
+            Meine Kontaktdaten finden Sie auf dem schwarzen Box über die karte.
+          </p>
+          <p>
+            <i>(Die Karte ist leider nicht für Handys verfügbar.)</i>
           </p>
           <div className="contact-form">
             <form ref={form} onSubmit={sendEmail}>
