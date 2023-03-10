@@ -1,8 +1,8 @@
 import {
   faCss3,
-  faGitAlt,
   faHtml5,
   faJsSquare,
+  faNodeJs,
   faReact,
   faVuejs,
 } from "@fortawesome/free-brands-svg-icons";
@@ -33,25 +33,18 @@ const About = () => {
             />
           </h1>
           <p>
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-            erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
-            et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
-            Lorem ipsum dolor sit amet.
+            Schon seit meiner Kindheit bin ich von Sprachen fasziniert.
+            Jahrenlang habe ich mich mit "menschlischen" sprachen beschäftigt,
+            bis in einem Gespräsch der Satz fiel:
+            <span>Programmiersprachen sind auch Sprachen.</span> Aus diesen
+            einfachen Gedanken entstand eine neue Begeisterung und schließlich
+            mein Wunsch auch beruflich in dieses spannende Feld einzusteigen.
           </p>
           <p>
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-            erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
-            et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
-            Lorem ipsum dolor sit amet.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-            erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
-            et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
-            Lorem ipsum dolor sit amet.
+            Im Jahr 2022 habe ich dann ein Bootcamp bei der{" "}
+            <span>Zero to Mastery Academy</span>. Ich habe HTML, CSS,
+            JavaScript, und React.js (Redux/Redux toolkit) erlernt, und Node.js
+            (zusammen mit Express) als Backend tools benutz.
           </p>
         </div>
         <div className="stage-cube-cont">
@@ -78,8 +71,8 @@ const About = () => {
               <p className="p">JavaScript</p>
             </div>
             <div className="face6">
-              <FontAwesomeIcon icon={faGitAlt} color="#EC4D28" />
-              <p className="p">Git</p>
+              <FontAwesomeIcon icon={faNodeJs} color="#3c873a" />
+              <p className="p">Node.js</p>
             </div>
           </div>
         </div>
