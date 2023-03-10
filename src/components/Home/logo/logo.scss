@@ -2,7 +2,7 @@
   z-index: 0;
   width: 400px;
   height: 609px;
-  opacity: 0;
+  opacity: 1;
   position: absolute;
   top: 0;
   right: 15%;
@@ -10,30 +10,9 @@
   left: auto;
   margin: auto;
 
-  svg {
-    width: 100%;
-    height: auto;
-    bottom: 0;
-    transform: rotateZ(10deg) !important;
+  .icon {
+    font-size: 30em;
   }
-
-  .solid-logo {
-    position: absolute;
-    top: auto;
-    right: auto;
-    bottom: auto;
-    left: 0;
-    margin: auto;
-    width: 100%;
-    opacity: 0;
-    transform: rotateZ(10deg) !important;
-    z-index: 1;
-  }
-}
-
-.svg-container {
-  stroke: #ffd700;
-  stroke-width: 10;
 }
 
 @media screen and (max-width: 1200px) {
