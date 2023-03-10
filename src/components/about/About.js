@@ -34,8 +34,8 @@ const About = () => {
           </h1>
           <p>
             Schon seit meiner Kindheit bin ich von Sprachen fasziniert.
-            Jahrenlang habe ich mich mit "menschlischen" sprachen beschäftigt,
-            bis in einem Gespräsch der Satz fiel:
+            Jahrelang habe ich mich mit "menschlichen" sprachen beschäftigt, bis
+            in einem Gespräsch der Satz fiel:
             <span>Programmiersprachen sind auch Sprachen.</span> Aus diesen
             einfachen Gedanken entstand eine neue Begeisterung und schließlich
             mein Wunsch auch beruflich in dieses spannende Feld einzusteigen.
